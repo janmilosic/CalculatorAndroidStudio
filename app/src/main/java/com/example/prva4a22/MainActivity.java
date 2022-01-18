@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addText(View v){
-        String s = String.valueOf(vnos.getText());
-        vnos.setText(s + ((Button)v).getText().toString());
     }
 
     public void Clear(View v){
