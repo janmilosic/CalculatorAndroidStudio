@@ -15,8 +15,8 @@
 
 
     <string name="clear">C</string>
-    <string name="exponent">^</string>
-    <string name="pharentheses">( )</string>
+    <string name="pharentheses1">(</string>
+    <string name="pharenthese2">)</string>
     <string name="divide">÷</string>
     <string name="multiply">×</string>
     <string name="add">+</string>

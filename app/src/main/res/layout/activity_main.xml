@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/malomajncrna"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -39,26 +40,28 @@
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/pharentheses"
-                android:background="@drawable/circle"
-                android:textColor="#ffffff"
-                app:backgroundTint="@null"
                 android:layout_margin="5dp"
-                android:textSize="24sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="addText"
+                android:text="@string/pharentheses1"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
 
             <Button
                 android:id="@+id/exponentBTN"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/exponent"
-                android:background="@drawable/circle"
-                android:textColor="#ffffff"
-                app:backgroundTint="@null"
                 android:layout_margin="5dp"
-                android:textSize="24sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="addText"
+                android:text="@string/pharenthese2"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
 
             <Button
                     android:id="@+id/divideBTN"
@@ -267,13 +270,14 @@
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/plusMinus"
-                android:background="@drawable/circle"
-                android:textColor="#ffffff"
-                app:backgroundTint="@null"
                 android:layout_margin="5dp"
-                android:textSize="24sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="addText"
+                android:text="@string/plusMinus"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
 
             <Button
                     android:id="@+id/zeroBTN"
@@ -294,13 +298,14 @@
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="0dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"
-                android:text="@string/point"
-                android:background="@drawable/circle"
-                android:textColor="#ffffff"
-                app:backgroundTint="@null"
                 android:layout_margin="5dp"
-                android:textSize="24sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/circle"
+                android:onClick="addText"
+                android:text="@string/point"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                app:backgroundTint="@null" />
 
             <Button
                 android:id="@+id/equalsBTN"
@@ -311,7 +316,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/circle"
                 android:backgroundTint="#50c878"
-                android:onClick="writeBack"
+                android:onClick="Rezultat"
                 android:text="@string/equals"
                 android:textColor="#ffffff"
                 android:textSize="24sp"
@@ -323,21 +328,26 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Kalkulator"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="KALKULATOR"
+        android:textColor="#dd2c00"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/vnos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#00BCD4"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
