@@ -61,18 +61,18 @@
                 android:textSize="24sp"/>
 
             <Button
-                android:id="@+id/divideBTN"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:onClick="Divide"
-                android:text="@string/divide"
-                android:textColor="#ffffff"
-                android:textSize="24sp"
-                app:backgroundTint="@null" />
+                    android:id="@+id/divideBTN"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:onClick="addText"
+                    android:text="@string/divide"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null"/>
         </TableRow>
 
         <TableRow
@@ -87,7 +87,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/seven"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -101,7 +101,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/eight"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -115,25 +115,25 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/nine"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
                     android:textSize="24sp"/>
 
             <Button
-                android:id="@+id/multiplyBTN"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:onClick="Multipy"
-                android:text="@string/multiply"
-                android:textColor="#ffffff"
-                android:textSize="24sp"
-                app:backgroundTint="@null" />
+                    android:id="@+id/multiplyBTN"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:onClick="addText"
+                    android:text="@string/multiply"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null"/>
         </TableRow>
 
         <TableRow
@@ -148,7 +148,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/four"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -162,7 +162,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/five"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -176,25 +176,25 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/six"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
                     android:textSize="24sp"/>
 
             <Button
-                android:id="@+id/subtractBTN"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:onClick="Subtract"
-                android:text="@string/subtract"
-                android:textColor="#ffffff"
-                android:textSize="24sp"
-                app:backgroundTint="@null" />
+                    android:id="@+id/subtractBTN"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:onClick="addText"
+                    android:text="@string/subtract"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null"/>
         </TableRow>
 
         <TableRow
@@ -209,7 +209,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/one"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -223,7 +223,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/two"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
@@ -237,25 +237,25 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/three"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
                     android:textSize="24sp"/>
 
             <Button
-                android:id="@+id/addBTN"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="0dp"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/circle"
-                android:onClick="Add"
-                android:text="@string/add"
-                android:textColor="#ffffff"
-                android:textSize="24sp"
-                app:backgroundTint="@null" />
+                    android:id="@+id/addBTN"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:onClick="addText"
+                    android:text="@string/add"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null"/>
         </TableRow>
 
         <TableRow
@@ -283,7 +283,7 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/circle"
-                    android:onClick="addNumber"
+                    android:onClick="addText"
                     android:text="@string/zero"
                     android:textColor="#ffffff"
                     app:backgroundTint="@null"
