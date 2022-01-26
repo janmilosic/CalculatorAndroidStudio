@@ -35,7 +35,13 @@ public class MainActivity extends AppCompatActivity {
         s = s.replace("+/-","-");
 
         try {
-            vnos.setText(String.valueOf(eval(s)));
+            double r = eval(s);
+
+            if (Math.ceil(r) > r) {
+                vnos.setText(String.valueOf(eval(s)));
+            } else {
+                vnos.setText(String.valueOf((int) eval(s)));
+            }
         } catch (Exception ex){
             vnos.setText("Error");
         }
