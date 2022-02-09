@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">prva4a22</string>
 
-
     <string name="zero">0</string>
     <string name="one">1</string>
     <string name="two">2</string>
@@ -13,10 +12,9 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
 
-
     <string name="clear">C</string>
-    <string name="pharentheses1">(</string>
-    <string name="pharenthese2">)</string>
+    <string name="procent">%</string>
+    <string name="sqrt">√</string>
     <string name="divide">÷</string>
     <string name="multiply">×</string>
     <string name="add">+</string>
@@ -24,7 +22,6 @@
     <string name="plusMinus">+/-</string>
     <string name="point">.</string>
     <string name="equals">=</string>
-
 
     <string name="backspace"> </string>
 
