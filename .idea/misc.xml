@@ -9,6 +9,7 @@
         <entry key="..\:/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/Anej/Desktop/Random Stuff/Mili/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.37447916666666664" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.37447916666666664" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.37447916666666664" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2884097035040431" />
       </map>
@@ -19,12 +20,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.5" />
-      </ProjectState>
-    </option>
   </component>
 </project>
